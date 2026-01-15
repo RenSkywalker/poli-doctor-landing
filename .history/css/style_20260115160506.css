@@ -45,8 +45,7 @@ body::before {
 
 section p {
   color: #222;
-  text-align: center;
-  font-weight: 400;
+  justify-content: center;
 }
 
 /* ================= HERO ================= */

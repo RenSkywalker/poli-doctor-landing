@@ -45,8 +45,6 @@ body::before {
 
 section p {
   color: #222;
-  text-align: center;
-  font-weight: 400;
 }
 
 /* ================= HERO ================= */
@@ -120,9 +118,6 @@ section p {
 .imagem-grid img {
   border-radius: 14px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-  width: 100%;
-  max-height: 360px;
-  object-fit: cover;
 }
 
 .img-medico {
@@ -257,6 +252,7 @@ li {
 
 .plano.destaque {
   border: 2px solid var(--vermelho);
+  box-shadow: 0 20px 45px rgba(255, 26, 26, 0.25);
 }
 
 .preco {

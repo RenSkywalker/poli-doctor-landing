@@ -45,8 +45,6 @@ body::before {
 
 section p {
   color: #222;
-  text-align: center;
-  font-weight: 400;
 }
 
 /* ================= HERO ================= */
@@ -257,6 +255,7 @@ li {
 
 .plano.destaque {
   border: 2px solid var(--vermelho);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
 }
 
 .preco {

@@ -43,12 +43,6 @@ body::before {
   padding: 70px 20px;
 }
 
-section p {
-  color: #222;
-  text-align: center;
-  font-weight: 400;
-}
-
 /* ================= HERO ================= */
 .hero {
   background: var(--preto);
@@ -71,7 +65,6 @@ section p {
   max-width: 820px;
   margin: 0 auto 20px;
   font-size: 1.1rem;
-  line-height: 1.8;
 }
 
 /* BOTÕES */
@@ -120,9 +113,6 @@ section p {
 .imagem-grid img {
   border-radius: 14px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-  width: 100%;
-  max-height: 360px;
-  object-fit: cover;
 }
 
 .img-medico {
@@ -257,20 +247,13 @@ li {
 
 .plano.destaque {
   border: 2px solid var(--vermelho);
+  box-shadow: 0 20px 45px rgba(255, 26, 26, 0.25);
 }
 
 .preco {
   font-size: 1.7rem;
   color: var(--vermelho);
   margin: 20px 0;
-}
-
-.preco-antigo {
-  display: block;
-  font-size: 1rem;
-  color: #999;
-  text-decoration: line-through;
-  margin-top: 5px;
 }
 
 .plano ul {
