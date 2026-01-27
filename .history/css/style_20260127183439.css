@@ -394,6 +394,7 @@ footer small {
 
 .cta-btn-link {
   position: absolute;
+  background: rgba(255, 0, 0, 0.25);
   /* ajuste fino aqui */
   left: 58%;
   top: 15%;
@@ -411,6 +412,7 @@ footer small {
 .plano-link {
   position: absolute;
   cursor: pointer;
+  background: rgba(255, 0, 0, 0.25);
 }
 
 /* 🔴 LINHA SUPERIOR (4 planos) */
@@ -423,16 +425,16 @@ footer small {
 
 .plano-2 {
   left: 30%;
-  top: 73%;
-  width: 19%;
-  height: 6%;
+  top: 68%;
+  width: 18%;
+  height: 10%;
 }
 
 .plano-3 {
   left: 51%;
-  top: 73%;
-  width: 20%;
-  height: 6%;
+  top: 62%;
+  width: 18%;
+  height: 10%;
 }
 
 .plano-4 {

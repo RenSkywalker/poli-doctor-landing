@@ -26,7 +26,6 @@ body {
 }
 
 /* MARCA D'ÁGUA */
-/*
 body::before {
   content: "";
   position: fixed;
@@ -36,12 +35,12 @@ body::before {
   opacity: 0.03;
   pointer-events: none;
 }
-*/
 
 /* CONTAINER */
 .container {
-  max-width: none;
-  padding: 0;
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
 }
 
 /* ================= HERO ================= 
@@ -102,6 +101,9 @@ body::before {
   color: var(--branco);
 }
 
+.imagem-destaque {
+  background: #ffffff;
+}
 
 .imagem-grid {
   display: grid;
@@ -156,7 +158,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-/* ================= BENEFÍCIOS ================= 
+/* ================= BENEFÍCIOS ================= */
 .beneficios {
   background: #ffffff;
   border-top: 1px solid #ffffff;
@@ -172,7 +174,6 @@ h3 {
   margin-bottom: 10px;
   font-weight: 500;
 }
-  */
 
 /* ================= LISTAS ================= */
 ul {
@@ -208,7 +209,7 @@ li {
   font-weight: bold;
 }
 
-/* ================= SEGURANÇA ================= 
+/* ================= SEGURANÇA ================= */
 .seguranca ul {
   list-style: none;
   text-align: center;
@@ -236,7 +237,6 @@ li {
   border-radius: 14px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
-  */
 
 /* ================= PLANOS ================= */
 .plano {
@@ -314,7 +314,7 @@ table tr:hover {
   background: #f1f1f1;
 }
 
-/* ================= CTA FINAL ================= 
+/* ================= CTA FINAL ================= */
 .cta-final {
   background: var(--preto);
   color: var(--branco);
@@ -329,11 +329,10 @@ table tr:hover {
 .large {
   font-size: 1.2rem;
 }
-  */
 
 /* ================= FOOTER ================= */
 footer {
-  background: url("../assets/images/blocos/footer-bg.jpeg") center / cover no-repeat;
+  background: var(--cinza-escuro);
   color: var(--branco);
   text-align: center;
   padding: 50px 20px;
@@ -356,6 +355,15 @@ footer small {
   font-size: 0.85rem;
 }
 
+img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+}
+
 .tabela-wrapper {
   width: 100%;
   overflow-x: auto;
@@ -369,100 +377,13 @@ footer small {
 
 /* ================= IMAGENS DE BLOCO ================= */
 .img-bloco {
-  width: 100vw;
-  height: auto;
+  width: 100%;
+  max-width: 1100px;
   display: block;
+  margin: 0 auto;
 }
 
-.hero-wrapper {
-  position: relative;
-}
 
-.hero-btn-link {
-  position: absolute;
-  /* ajuste fino aqui */
-  left: 51%;
-  top: 79%;
-  width: 25%;
-  height: 15%;
-  cursor: pointer;
-}
-
-.cta2-wrapper {
-  position: relative;
-}
-
-.cta-btn-link {
-  position: absolute;
-  /* ajuste fino aqui */
-  left: 58%;
-  top: 15%;
-  width: 37%;
-  height: 36%;
-  cursor: pointer;
-}
-
-/* ================= PLANOS - BOTÕES INVISÍVEIS ================= */
-
-.planos-wrapper {
-  position: relative;
-}
-
-.plano-link {
-  position: absolute;
-  cursor: pointer;
-}
-
-/* 🔴 LINHA SUPERIOR (4 planos) */
-.plano-1 {
-  left: 9%;
-  top: 73%;
-  width: 19%;
-  height: 6%;
-}
-
-.plano-2 {
-  left: 30%;
-  top: 73%;
-  width: 19%;
-  height: 6%;
-}
-
-.plano-3 {
-  left: 51%;
-  top: 73%;
-  width: 20%;
-  height: 6%;
-}
-
-.plano-4 {
-  left: 72%;
-  top: 86%;
-  width: 22%;
-  height: 13%;
-}
-
-/* 🔴 LINHA INFERIOR (CTAs) */
-.plano-5 {
-  left: 7%;
-  top: 86%;
-  width: 22%;
-  height: 13%;
-}
-
-.plano-6 {
-  left: 30%;
-  top: 85%;
-  width: 20%;
-  height: 14%;
-}
-
-.plano-7 {
-  left: 51%;
-  top: 85%;
-  width: 20%;
-  height: 14%;
-}
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {

@@ -26,7 +26,6 @@ body {
 }
 
 /* MARCA D'ÁGUA */
-/*
 body::before {
   content: "";
   position: fixed;
@@ -36,7 +35,6 @@ body::before {
   opacity: 0.03;
   pointer-events: none;
 }
-*/
 
 /* CONTAINER */
 .container {
@@ -374,95 +372,7 @@ footer small {
   display: block;
 }
 
-.hero-wrapper {
-  position: relative;
-}
 
-.hero-btn-link {
-  position: absolute;
-  /* ajuste fino aqui */
-  left: 51%;
-  top: 79%;
-  width: 25%;
-  height: 15%;
-  cursor: pointer;
-}
-
-.cta2-wrapper {
-  position: relative;
-}
-
-.cta-btn-link {
-  position: absolute;
-  /* ajuste fino aqui */
-  left: 58%;
-  top: 15%;
-  width: 37%;
-  height: 36%;
-  cursor: pointer;
-}
-
-/* ================= PLANOS - BOTÕES INVISÍVEIS ================= */
-
-.planos-wrapper {
-  position: relative;
-}
-
-.plano-link {
-  position: absolute;
-  cursor: pointer;
-}
-
-/* 🔴 LINHA SUPERIOR (4 planos) */
-.plano-1 {
-  left: 9%;
-  top: 73%;
-  width: 19%;
-  height: 6%;
-}
-
-.plano-2 {
-  left: 30%;
-  top: 73%;
-  width: 19%;
-  height: 6%;
-}
-
-.plano-3 {
-  left: 51%;
-  top: 73%;
-  width: 20%;
-  height: 6%;
-}
-
-.plano-4 {
-  left: 72%;
-  top: 86%;
-  width: 22%;
-  height: 13%;
-}
-
-/* 🔴 LINHA INFERIOR (CTAs) */
-.plano-5 {
-  left: 7%;
-  top: 86%;
-  width: 22%;
-  height: 13%;
-}
-
-.plano-6 {
-  left: 30%;
-  top: 85%;
-  width: 20%;
-  height: 14%;
-}
-
-.plano-7 {
-  left: 51%;
-  top: 85%;
-  width: 20%;
-  height: 14%;
-}
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
