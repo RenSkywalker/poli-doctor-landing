@@ -356,12 +356,9 @@ footer small {
 
 /* ================= IMAGENS DE BLOCO ================= */
 .img-bloco {
-  display: block;
-  width: 100%;
-  max-width: 100%;
+  width: 100vw;
   height: auto;
-  margin: 0;
-  border-radius: 0;
+  display: block;
 }
 
 .hero-wrapper {
@@ -462,35 +459,29 @@ html, body {
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
-  /* REMOVE QUALQUER LIMITAÇÃO */
+  /* REMOVE LIMITAÇÃO DO CONTAINER */
   .container {
     max-width: 100%;
     padding: 0;
-    margin: 0;
   }
 
-  section,
-  header {
+  /* IMAGENS EM TELA CHEIA */
+  .img-bloco {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  /* REMOVE ESPAÇOS ENTRE SEÇÕES */
+  section {
     margin: 0;
     padding: 0;
   }
 
-  /* IMAGENS REALMENTE FULL WIDTH */
-  .img-bloco {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* HERO OCUPA A TELA */
+  /* HERO EM FULL SCREEN */
   .hero {
-    height: auto;
-  }
-
-  .hero .img-bloco {
-    width: 100%;
-    height: auto;
+    padding: 0;
   }
 
   /* CONTEXTO EM COLUNA */
@@ -498,6 +489,9 @@ html, body {
     grid-template-columns: 1fr;
   }
 
+  .hero .img-bloco {
+    height: 100vh;
+    object-fit: cover;
+  }
 }
-
 
