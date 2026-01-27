@@ -497,9 +497,5 @@ footer small {
     grid-template-columns: 1fr;
   }
 
-  .hero .img-bloco {
-    height: 100vh;
-    object-fit: cover;
-  }
 }
 
