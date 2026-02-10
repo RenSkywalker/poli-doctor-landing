@@ -462,30 +462,25 @@ html, body {
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
-  /* HERO – cresce bastante */
-  .img-hero {
-    transform: scale(1.25);
-    transform-origin: center top;
+ /* remove qualquer limitação de layout */
+  section,
+  header,
+  .container,
+  .imagem-contexto-grid {
+    display: block !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
-  /* HEADLINE */
-  .img-headline {
-    transform: scale(1.15);
-    transform-origin: center center;
-  }
-
-  /* INTRO */
-  .img-intro-box {
-    transform: scale(1.2);
-    transform-origin: center center;
-  }
-
-  /* PLANOS */
-  .img-planos-header {
-    transform: scale(1.3);
-    transform-origin: center top;
+  /* TODAS as imagens crescem */
+  picture,
+  picture img,
+  .img-bloco {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: auto !important;
+    display: block;
   }
 }
-
-
-
