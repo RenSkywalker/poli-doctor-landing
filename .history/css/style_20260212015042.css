@@ -461,36 +461,45 @@ html, body {
 
 /* ================= BOTÕES FIXOS TOPO ================= */
 
-/* BOTÕES NO TOPO DO HERO */
-.hero-top-buttons {
-  position: absolute;
+.top-fixed-buttons {
+  position: fixed;
   top: 20px;
   right: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* 👈 UM EMBAIXO DO OUTRO */
   gap: 10px;
-  z-index: 10;
+  z-index: 9999;
 }
 
-.hero-btn {
-  padding: 8px 16px;
-  font-size: 12px;
+.top-btn {
+  padding: 10px 18px;
   font-weight: bold;
-  border-radius: 6px;
   text-decoration: none;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: 0.3s ease;
   text-align: center;
-  min-width: 160px;
+  min-width: 180px;
 }
 
-/* CORES */
-.hero-btn.telemedicina {
+/* TELEMEDICINA */
+.telemedicina {
   background: var(--vermelho);
   color: #fff;
 }
 
-.hero-btn.clube {
+.telemedicina:hover {
+  opacity: 0.85;
+}
+
+/* CLUBE */
+.clube {
   background: var(--preto);
   color: #fff;
+}
+
+.clube:hover {
+  opacity: 0.85;
 }
 
 
@@ -519,14 +528,14 @@ html, body {
     display: block;
   }
 
-  .hero-top-buttons {
+  .top-fixed-buttons {
   top: 10px;
   right: 10px;
 }
 
-.hero-btn {
-  font-size: 10px;
-  padding: 6px 10px;
-  min-width: 130px;
+.top-btn {
+  font-size: 11px;
+  padding: 8px 12px;
+  min-width: 150px;
  }
 }

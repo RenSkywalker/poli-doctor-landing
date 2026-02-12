@@ -459,38 +459,50 @@ html, body {
   overflow-x: hidden;
 }
 
-/* ================= BOTÕES FIXOS TOPO ================= */
+/* ================= BOTÕES SUPERIORES FIXOS ================= */
 
-/* BOTÕES NO TOPO DO HERO */
-.hero-top-buttons {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+/* ================= BARRA SUPERIOR ================= */
+
+.top-bar {
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 30px;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 10;
+  justify-content: flex-end;
 }
 
-.hero-btn {
-  padding: 8px 16px;
-  font-size: 12px;
+.top-bar-content {
+  display: flex;
+  gap: 15px;
+}
+
+.top-btn {
+  padding: 10px 20px;
   font-weight: bold;
-  border-radius: 6px;
   text-decoration: none;
-  text-align: center;
-  min-width: 160px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s ease;
 }
 
-/* CORES */
-.hero-btn.telemedicina {
+/* TELEMEDICINA */
+.telemedicina {
   background: var(--vermelho);
   color: #fff;
 }
 
-.hero-btn.clube {
+.telemedicina:hover {
+  opacity: 0.85;
+}
+
+/* CLUBE */
+.clube {
   background: var(--preto);
   color: #fff;
+}
+
+.clube:hover {
+  opacity: 0.85;
 }
 
 
@@ -519,14 +531,13 @@ html, body {
     display: block;
   }
 
-  .hero-top-buttons {
+  .top-buttons {
   top: 10px;
   right: 10px;
 }
 
-.hero-btn {
-  font-size: 10px;
-  padding: 6px 10px;
-  min-width: 130px;
+.top-btn {
+  font-size: 12px;
+  padding: 8px 14px;
  }
 }
