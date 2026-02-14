@@ -440,7 +440,7 @@ html, body {
 
 /* ================= BOTÕES FIXOS TOPO ================= */
 
-/* BOTÕES NO TOPO DO HERO
+/* BOTÕES NO TOPO DO HERO */
 .hero-top-buttons {
   position: absolute;
   top: 20px;
@@ -461,7 +461,7 @@ html, body {
   min-width: 160px;
 }
 
-/* CORES 
+/* CORES */
 .hero-btn.telemedicina {
   background: var(--vermelho);
   color: #fff;
@@ -471,7 +471,6 @@ html, body {
   background: var(--preto);
   color: #fff;
 }
-*/
 
 .imagem-trafego img {
   width: 100%;
@@ -536,32 +535,8 @@ html, body {
 .area-btn {
   position: absolute;
   cursor: pointer;
-}
-
-/* ================= ANIMAÇÃO HAMBURGUER ================= */
-
-.menu-toggle span {
-  transition: 0.3s ease;
-}
-
-/* Primeira linha gira */
-.menu-toggle.active span:nth-child(1) {
-  transform: rotate(45deg) translate(6px, 6px);
-}
-
-/* Segunda linha some */
-.menu-toggle.active span:nth-child(2) {
-  opacity: 0;
-}
-
-/* Terceira linha gira ao contrário */
-.menu-toggle.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(7px, -7px);
-}
-
-/* Impede scroll quando menu aberto */
-body.menu-open {
-  overflow: hidden;
+  background: rgba(255,0,0,0.4);
+  border: 2px solid red;
 }
 
 /* AJUSTE CONFORME SUA IMAGEM */
@@ -576,21 +551,21 @@ body.menu-open {
   left: 29%;
   top: 60%;
   width: 20%;
-  height: 27%;
+  height: 23%;
 }
 
 .area-btn.psicologia {
-  left: 51%;
-  top: 60%;
-  width: 20%;
-  height: 27%;
+  left: 54%;
+  top: 65%;
+  width: 18%;
+  height: 15%;
 }
 
 .area-btn.clube {
-  left: 73%;
-  top: 60%;
-  width: 20%;
-  height: 27%;
+  left: 76%;
+  top: 65%;
+  width: 18%;
+  height: 15%;
 }
 
 

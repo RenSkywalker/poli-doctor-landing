@@ -35,11 +35,12 @@
 <body>
 
 <!-- MENU HAMBURGUER -->
-<div class="menu-toggle" onclick="toggleMenu(this)">
+<div class="menu-toggle" onclick="toggleMenu()">
   <span></span>
   <span></span>
   <span></span>
 </div>
+
 <nav class="menu-overlay" id="menu">
   <a href="index.html">Página Principal</a>
   <a href="area-associados.html">Área de Associados</a>
@@ -81,6 +82,21 @@ com suporte digital completo.
 <!-- HERO -->
 <header class="hero">
   <div class="container hero-wrapper">
+
+    <!-- BOTÕES NO HERO -->
+    <div class="hero-top-buttons">
+      <a href="https://telemedicina.clubedoktormed.com.br/login"
+         target="_blank"
+         class="hero-btn telemedicina">
+         TELEMEDICINA
+      </a>
+
+      <a href="https://clubedoktormed.com.br/portal/cadastro-clubes?id_clube=410&page=convenios"
+         target="_blank"
+         class="hero-btn clube">
+         CLUBE DE VANTAGENS
+      </a>
+    </div>
 
     <picture>
       <source srcset="assets/images/mobile/hero.png" media="(max-width: 768px)">
@@ -291,10 +307,8 @@ class="plano-link plano-4">
 </script>
 
 <script>
-function toggleMenu(button) {
-  button.classList.toggle("active");
+function toggleMenu() {
   document.getElementById("menu").classList.toggle("active");
-  document.body.classList.toggle("menu-open");
 }
 </script>
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Área de Associados | PoliDoctor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- MENU -->
+<div class="menu-toggle" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<nav class="menu-overlay" id="menu">
+  <a href="index.html">Página Principal</a>
+  <a href="area-associados.html">Área de Associados</a>
+</nav>
+
+<section class="area-associados">
+  <img src="assets/images/area-associados.png" class="img-bloco" alt="Área de Associados">
+
+  <!-- TELEMEDICINA -->
+  <a href="https://telemedicina.clubedoktormed.com.br/login"
+     target="_blank"
+     class="area-btn telemedicina"></a>
+
+  <!-- AGENDAMENTOS (mesmo da telemedicina) -->
+  <a href="https://telemedicina.clubedoktormed.com.br/login"
+     target="_blank"
+     class="area-btn agendamentos"></a>
+
+  <!-- PSICOLOGIA (WhatsApp) -->
+  <a href="https://wa.me/5511949785121"
+     target="_blank"
+     class="area-btn psicologia"></a>
+
+  <!-- CLUBE DE VANTAGENS -->
+  <a href="https://clubedoktormed.com.br/portal/cadastro-clubes?id_clube=410&page=convenios"
+     target="_blank"
+     class="area-btn clube"></a>
+</section>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
