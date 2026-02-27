@@ -537,6 +537,7 @@ html, body {
 .area-btn {
   position: absolute;
   cursor: pointer;
+  background: rgba(255, 0, 0, 0.35);
 }
 
 /* ================= ANIMAÇÃO HAMBURGUER ================= */
@@ -567,39 +568,33 @@ body.menu-open {
 
 /* AJUSTE CONFORME SUA IMAGEM */
 .area-btn.telemedicina {
-  left: 12%;
-  top: 79%;
-  width: 11%;
+  left: 7%;
+  top: 80%;
+  width: 12%;
   height: 6%;
 }
 
 .area-btn.agendamentos {
-  left: 28%;
-  top: 79%;
-  width: 12%;
-  height: 6%;
+  left: 29%;
+  top: 60%;
+  width: 20%;
+  height: 27%;
 }
 
 .area-btn.psicologia {
-  left: 44%;
-  top: 79%;
-  width: 12%;
-  height: 6%;
+  left: 51%;
+  top: 60%;
+  width: 20%;
+  height: 27%;
 }
 
 .area-btn.clube {
-  left: 60%;
-  top: 79%;
-  width: 12%;
-  height: 6%;
+  left: 73%;
+  top: 60%;
+  width: 20%;
+  height: 27%;
 }
 
-.area-btn.financeiro {
-  left: 77%;
-  top: 79%;
-  width: 11%;
-  height: 6%;
-}
 
 /* ================= NOVA TABELA ================= */
 

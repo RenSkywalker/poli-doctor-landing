@@ -537,6 +537,7 @@ html, body {
 .area-btn {
   position: absolute;
   cursor: pointer;
+  background: rgba(17, 8, 8, 0.35);
 }
 
 /* ================= ANIMAÇÃO HAMBURGUER ================= */
@@ -581,25 +582,19 @@ body.menu-open {
 }
 
 .area-btn.psicologia {
-  left: 44%;
+  left: 35%;
   top: 79%;
   width: 12%;
   height: 6%;
 }
 
 .area-btn.clube {
-  left: 60%;
-  top: 79%;
-  width: 12%;
-  height: 6%;
+  left: 73%;
+  top: 60%;
+  width: 20%;
+  height: 27%;
 }
 
-.area-btn.financeiro {
-  left: 77%;
-  top: 79%;
-  width: 11%;
-  height: 6%;
-}
 
 /* ================= NOVA TABELA ================= */
 

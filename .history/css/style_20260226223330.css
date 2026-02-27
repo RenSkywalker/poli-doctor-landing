@@ -537,6 +537,7 @@ html, body {
 .area-btn {
   position: absolute;
   cursor: pointer;
+  background: rgba(17, 8, 8, 0.35);
 }
 
 /* ================= ANIMAÇÃO HAMBURGUER ================= */
@@ -594,12 +595,6 @@ body.menu-open {
   height: 6%;
 }
 
-.area-btn.financeiro {
-  left: 77%;
-  top: 79%;
-  width: 11%;
-  height: 6%;
-}
 
 /* ================= NOVA TABELA ================= */
 
